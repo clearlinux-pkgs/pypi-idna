@@ -4,7 +4,7 @@
 #
 Name     : pypi-idna
 Version  : 3.3
-Release  : 78
+Release  : 79
 URL      : https://files.pythonhosted.org/packages/62/08/e3fc7c8161090f742f504f40b1bccbfc544d4a4e09eb774bf40aafce5436/idna-3.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/62/08/e3fc7c8161090f742f504f40b1bccbfc544d4a4e09eb774bf40aafce5436/idna-3.3.tar.gz
 Summary  : Internationalized Domain Names in Applications (IDNA)
@@ -14,9 +14,6 @@ Requires: pypi-idna-license = %{version}-%{release}
 Requires: pypi-idna-python = %{version}-%{release}
 Requires: pypi-idna-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: idna
-Provides: idna-python
-Provides: idna-python3
 
 %description
 Internationalized Domain Names in Applications (IDNA)
@@ -58,7 +55,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641444070
+export SOURCE_DATE_EPOCH=1649761755
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
