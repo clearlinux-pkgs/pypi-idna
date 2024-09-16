@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : pypi-idna
-Version  : 3.9
-Release  : 99
-URL      : https://files.pythonhosted.org/packages/00/6f/93e724eafe34e860d15d37a4f72a1511dd37c43a76a8671b22a15029d545/idna-3.9.tar.gz
-Source0  : https://files.pythonhosted.org/packages/00/6f/93e724eafe34e860d15d37a4f72a1511dd37c43a76a8671b22a15029d545/idna-3.9.tar.gz
+Version  : 3.10
+Release  : 100
+URL      : https://files.pythonhosted.org/packages/f1/70/7703c29685631f5a7590aa73f1f1d3fa9a380e654b86af429e0934a32f7d/idna-3.10.tar.gz
+Source0  : https://files.pythonhosted.org/packages/f1/70/7703c29685631f5a7590aa73f1f1d3fa9a380e654b86af429e0934a32f7d/idna-3.10.tar.gz
 Summary  : Internationalized Domain Names in Applications (IDNA)
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -54,10 +54,10 @@ python3 components for the pypi-idna package.
 
 
 %prep
-%setup -q -n idna-3.9
-cd %{_builddir}/idna-3.9
+%setup -q -n idna-3.10
+cd %{_builddir}/idna-3.10
 pushd ..
-cp -a idna-3.9 buildavx2
+cp -a idna-3.10 buildavx2
 popd
 
 %build
@@ -65,7 +65,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1726353829
+export SOURCE_DATE_EPOCH=1726523026
 export GCC_IGNORE_WERROR=1
 CLEAR_INTERMEDIATE_CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
 CLEAR_INTERMEDIATE_FCFLAGS="$CLEAR_INTERMEDIATE_FFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
