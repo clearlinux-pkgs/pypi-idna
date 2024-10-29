@@ -7,7 +7,7 @@
 #
 Name     : pypi-idna
 Version  : 3.10
-Release  : 100
+Release  : 101
 URL      : https://files.pythonhosted.org/packages/f1/70/7703c29685631f5a7590aa73f1f1d3fa9a380e654b86af429e0934a32f7d/idna-3.10.tar.gz
 Source0  : https://files.pythonhosted.org/packages/f1/70/7703c29685631f5a7590aa73f1f1d3fa9a380e654b86af429e0934a32f7d/idna-3.10.tar.gz
 Summary  : Internationalized Domain Names in Applications (IDNA)
